@@ -1,4 +1,4 @@
-package Basics;
+package src.Basics;
 
 public class RichCustomer1672 {
     public static void main(String[] args) {
