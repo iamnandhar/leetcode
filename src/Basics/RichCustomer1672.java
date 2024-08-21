@@ -7,6 +7,11 @@ public class RichCustomer1672 {
             {3, 2, 1}
         };
         // find max wealth
+        int maxWealth = getMaxWealth(accounts);
+        System.out.println(maxWealth);
+    }
+
+    public static int getMaxWealth(int[][] accounts) {
         int maxWealth = 0;
         for (int[] account : accounts) {
             int wealth = 0;
@@ -15,6 +20,6 @@ public class RichCustomer1672 {
             }
             maxWealth = Math.max(maxWealth, wealth);
         }
-        System.out.println(maxWealth);
+        return maxWealth;
     }
 }
