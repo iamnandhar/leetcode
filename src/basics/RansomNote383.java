@@ -1,4 +1,4 @@
-package src.Basics;
+package src.basics;
 
 public class RansomNote383 {
     public static void main(String[] args) {
@@ -11,12 +11,14 @@ public class RansomNote383 {
         if (ransomNote.length() > magazine.length()) {
             return false;
         }
+        int[] charCounts = new int[26];
+        for (char c : magazine.toCharArray()) {
+            charCounts[c - 'a']++;
+        }
         for (char c : ransomNote.toCharArray()) {
-            int index = magazine.indexOf(c);
-            if (index == -1) {
+            if (--charCounts[c - 'a'] < 0) {
                 return false;
             }
-            magazine = magazine.substring(0, index) + magazine.substring(index + 1);
         }
         return true;
     }

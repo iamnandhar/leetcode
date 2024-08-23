@@ -1,7 +1,7 @@
-package test.Basics;
+package test.basics;
 
 import org.junit.jupiter.api.Test;
-import src.Basics.RunningSum1480;
+import src.basics.RunningSum1480;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

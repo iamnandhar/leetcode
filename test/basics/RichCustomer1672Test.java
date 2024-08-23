@@ -1,7 +1,7 @@
-package test.Basics;
+package test.basics;
 
 import org.junit.jupiter.api.Test;
-import src.Basics.RichCustomer1672;
+import src.basics.RichCustomer1672;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

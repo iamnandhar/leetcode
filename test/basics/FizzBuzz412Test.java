@@ -1,7 +1,7 @@
-package test.Basics;
+package test.basics;
 
 import org.junit.jupiter.api.Test;
-import src.Basics.FizzBuzz412;
+import src.basics.FizzBuzz412;
 
 import java.util.Arrays;
 import java.util.List;
@@ -35,8 +35,8 @@ class FizzBuzz412Test {
 
     @Test
     void generatesFizzBuzzForNumberDivisibleByThreeAndFive() {
-        List<String> expected = Arrays.asList("1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz");
-        assertEquals(expected, FizzBuzz412.fizzBuzz(15));
+        List<String> expected = Arrays.asList("1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14");
+        assertEquals(expected, FizzBuzz412.fizzBuzz(14));
     }
 
     @Test

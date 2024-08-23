@@ -1,7 +1,7 @@
-package test.Basics;
+package test.basics;
 
 import org.junit.jupiter.api.Test;
-import src.Basics.ReduceZero1342;
+import src.basics.ReduceZero1342;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

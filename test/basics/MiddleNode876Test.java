@@ -1,7 +1,7 @@
-package test.Basics;
+package test.basics;
 
-import src.Basics.ListNode;
-import src.Basics.MiddleNode876;
+import src.basics.ListNode;
+import src.basics.MiddleNode876;
 
 import static org.junit.jupiter.api.Assertions.*;
 

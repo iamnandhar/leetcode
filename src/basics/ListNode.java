@@ -1,4 +1,4 @@
-package src.Basics;
+package src.basics;
 
 public class ListNode {
       public int val;

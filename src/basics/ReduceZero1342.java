@@ -1,4 +1,4 @@
-package src.Basics;
+package src.basics;
 
 public class ReduceZero1342 {
     public static void main(String[] args) {
