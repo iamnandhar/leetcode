@@ -11,11 +11,11 @@ public class ConsecutiveOnes {
         for (int num : nums) {
             if (num == 1) {
                 count++;
-                max = Math.max(max, count);
             } else {
+                max = Math.max(max, count);
                 count = 0;
             }
         }
-        return max;
+        return Math.max(max, count);
     }
 }
