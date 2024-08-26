@@ -27,10 +27,10 @@ public class DuplicateZero {
                 }
             }
             System.out.println("i: " + i);
-            System.out.println("count: " + count);
             for (int j : arr) {
-                System.out.println(j + " ");
+                System.out.print(j + " ");
             }
+            System.out.println("count: " + count);
         }
     }
 }
