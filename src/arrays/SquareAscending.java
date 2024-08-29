@@ -1,4 +1,4 @@
-package src.practice;
+package src.arrays;
 
 public class SquareAscending {
     public static void main(String[] args) {

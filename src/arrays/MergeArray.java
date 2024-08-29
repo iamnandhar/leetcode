@@ -1,4 +1,4 @@
-package src.practice;
+package src.arrays;
 
 public class MergeArray {
     public static void main(String[] args) {
